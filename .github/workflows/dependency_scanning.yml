@@ -1,4 +1,4 @@
-name: Build
+name: Dependency Scanning
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
